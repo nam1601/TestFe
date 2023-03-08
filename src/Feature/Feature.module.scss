@@ -12,3 +12,9 @@
         }
     }
 }
+.wrapper ~ .wrapper {
+    margin: 0 50px;
+}
+.wrapper + .wrapper ~ .wrapper {
+    margin: 0 0;
+}
