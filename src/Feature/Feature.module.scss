@@ -1,0 +1,10 @@
+.wrapper {
+    text-align: left;
+    max-width: calc((var(--content-width) - 100px) / 3);
+    .content {
+        overflow: auto;
+        img {
+            float: left;
+        }
+    }
+}

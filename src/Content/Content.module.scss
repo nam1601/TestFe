@@ -1,0 +1,30 @@
+.wrapper {
+    width: var(--content-width);
+    margin: auto;
+    margin-top: 20px;
+
+    .logo {
+        margin-bottom: 30px;
+    }
+    .about {
+        padding: 38px 0;
+        &__description {
+            max-width: 972px;
+            margin: auto;
+            margin-top: 18px;
+
+            font-size: 1.6rem;
+            font-weight: 400;
+            line-height: 1.2;
+        }
+    }
+    .feature {
+        width: 100%;
+        margin: auto;
+        margin-top: 40px;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
